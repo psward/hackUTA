@@ -26,3 +26,92 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.App{
+text-align: center;
+font-family: 'Lato', sans-serif;
+}
+
+header {
+height: 120px;
+margin: 0px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+background-image: url('https://media.rbl.ms/image?u=%2Ffiles%2F2016%2F12%2F15%2F636174301728624387-986712616_diverse.jpg&ho=https%3A%2F%2Faz616578.vo.msecnd.net&s=866&h=6604cb4919113bcc6e1f430c8e2928ca66630a14ddb5c23620a382c8d0c66e6d&size=980x&c=752628303');
+background-size: cover;
+}
+
+h1 {
+margin: 0px;
+}
+
+.search-div{
+height: 45px;
+padding: 5px 0px;
+}
+
+input {
+margin: 10px;
+width: 200px;
+}
+
+button {
+color: #000000;
+background: #ffffff;
+text-decoration: none;
+}
+
+.book-container {
+display: flex;
+flex-direction: row;
+margin: 8px 0px;
+padding: 3px;
+border: solid gray 1px;
+}
+
+.book-list-body {
+display: flex;
+align-items: flex-start;
+flex-direction: row;
+justify-content: center;
+}
+
+.book-list {
+width: 400px;
+display: flex;
+height: auto;
+flex-direction: column;
+margin: 5px;
+}
+
+.book-detail {
+display: flex;
+flex-direction: column;
+margin: 2px 10px;
+overflow: hidden;
+white-space: nowrap;
+text-align: left;
+justify-content: space-between;
+}
+
+.title {
+text-overflow: ellipsis;
+overflow: hidden;
+margin: 0px;
+}
+
+.authors {
+text-overflow: ellipsis;
+overflow: hidden;
+margin: 0px;
+}
+
+.book-img {
+width: 70px;
+height: 102px;
+}
+
+.book-button {
+width: fit-content;
+}
