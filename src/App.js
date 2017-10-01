@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './styles/App.css';
-import HeaderBar from './HeaderBar';
 import {
     BrowserRouter as Router,
     Route,
@@ -9,7 +8,8 @@ import {
 import Home from './Home';
 import Items from './Items';
 import Recipes from './Recipes';
-import Donate from './Donate.js'
+import Donate from './Donate.js';
+import Compost from './Compost.js';
 
 class App extends Component {
   constructor(props){
@@ -41,32 +41,20 @@ class App extends Component {
               <lu><Link to="/recipes">Find Recipe</Link></lu>
               <lu><Link to="/items">Build Your Own</Link></lu>
               <lu><Link to="/donate">Donate</Link></lu>
+              <lu><Link to="/compost">Composting</Link></lu>
             </ul>
 
             <Route exact path="/" component={Home}/>
             <Route path="/items" component={Items}/>
             <Route path="/recipes" component={Recipes}/>
             <Route path="/donate" component={Donate}/>
+            <Route path="/compost" component={Compost}/>
           </div>
         </Router>
       </div>
     );
   }
 }
-const HomeScreen = () => (
-    <Home/>
-)
-
-const ItemsScreen = () => (
-    <Items/>
-)
-
-const RecipesScreen = ({ match }) => (
-    <Recipes/>
-)
-const DonateScreen = () => (
-    <Donate/>
-)
 
 
 export default App;
