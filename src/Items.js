@@ -1,9 +1,10 @@
 import React from  'react';
+import './Items.css';
 
 const Items = () => (
     <div>
-        <h2>Items</h2>
-        <p> Test 2</p>
+        <h2>Add and Remove Items here</h2>
+
     </div>
 )
 
