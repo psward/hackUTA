@@ -1,11 +1,5 @@
 import React from  'react';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
-import Donate from './Donate.js';
-import { LinkContainer } from 'react-router-bootstrap';
-import {
-    BrowserRouter as Router,
-    Route,
-} from 'react-router-dom';
 
 // Uses boostrap components to build a header bar...
 const HeaderBar = (props) => {
@@ -17,16 +11,6 @@ const HeaderBar = (props) => {
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
-      <Navbar.Collapse>
-        <Nav pullRight>
-            <LinkContainer to="/donate">
-                <NavItem eventkey={2} href="/donate">Donate</NavItem>
-            </LinkContainer>
-            <Router>
-            <Route path ="/donate" component={Donate}/>
-            </Router>
-        </Nav>
-      </Navbar.Collapse>
     </Navbar>
   )
 }

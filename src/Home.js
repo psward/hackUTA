@@ -1,10 +1,12 @@
 import React from  'react';
 
 const Home = () => (
-    <div>
-        <h2>Home</h2>
-        <p> Test 1</p>
-    </div>
+    <body className="home">
+      <div>
+          <h1>FoodBunk</h1>
+          <h2>An easy way to shop for recipes!</h2>
+      </div>
+    </body>
 )
 
 export default Home;

@@ -9,9 +9,10 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  height: 80px;
+  padding: 25px;
   color: white;
+  font-size: 150%;
 }
 
 .App-title {
@@ -40,6 +41,24 @@ header {
   flex-direction: column;
   background-image: url('https://media.rbl.ms/image?u=%2Ffiles%2F2016%2F12%2F15%2F636174301728624387-986712616_diverse.jpg&ho=https%3A%2F%2Faz616578.vo.msecnd.net&s=866&h=6604cb4919113bcc6e1f430c8e2928ca66630a14ddb5c23620a382c8d0c66e6d&size=980x&c=752628303');
   background-size: cover;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+}
+
+body.home {
+  background-image: url('/splash.jpg');
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  height: 100%; 
+  position: absolute;
+}
+
+.space > h1 {
+    opacity: 1;
 }
 
 h1 {
@@ -75,7 +94,8 @@ div {
 lu a {
   padding-left: 2em;
   text-align: center;
-  color: ##9d9d9d;
+  color: #9d9d9d;
+  margin: 0px 50px 0px 50px;
 }
 
 lu a:hover {
