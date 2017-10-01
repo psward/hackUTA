@@ -58,6 +58,15 @@ body.home {
   position: absolute;
 }
 
+body.compost {
+  background-image: url('http://environment.columbia.edu/files/environmental/content/food%20waste%20%28compost%29.jpg');
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
 .space > h1 {
     opacity: 1;
 }
