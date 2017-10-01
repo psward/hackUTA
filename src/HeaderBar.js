@@ -3,8 +3,11 @@ import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import {
     BrowserRouter as Router,
     Route,
-    Link
+    Link,
 } from 'react-router-dom';
+import Home from './Home';
+import Items from './Items';
+import Recipes from './Recipes';
 
 // Uses boostrap components to build a header bar...
 const HeaderBar = (props) => {
@@ -41,22 +44,16 @@ const HeaderBar = (props) => {
   )
 }
 
-const Home = () => (
-    <div>
-        <h2>Home</h2>
-    </div>
+const HomeScreen = () => (
+    <Home/>
 )
 
-const Items = () => (
-    <div>
-        <h2>Items</h2>
-    </div>
+const ItemsScreen = () => (
+    <Items/>
 )
 
-const Recipes = ({ match }) => (
-    <div>
-        <h2>Recipes</h2>
-    </div>
+const RecipesScreen = ({ match }) => (
+    <Recipes/>
 )
 
 export default HeaderBar;
