@@ -35,17 +35,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <HeaderBar/>
         <Router>
           <div>
-            <ul>
+            <ul className="App-header">
               <lu><Link to="/">Home</Link></lu>
               <lu><Link to="/items">Build your own recipe</Link></lu>
               <lu><Link to="/recipes">Find a recipe</Link></lu>
               <lu><Link to="/donate">Donate</Link></lu>
             </ul>
-
-            <hr/>
 
             <Route exact path="/" component={Home}/>
             <Route path="/items" component={Items}/>
@@ -53,9 +50,6 @@ class App extends Component {
             <Route path="/donate" component={Donate}/>
           </div>
         </Router>
-      <SearchField
-      handleButtonClick = {this.handleButtonClick}
-      handleUserInput = {this.handleUserInput}/>
       </div>
     );
   }
