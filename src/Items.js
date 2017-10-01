@@ -2,10 +2,10 @@ import React from  'react';
 import './styles/App.css';
 
 const Items = () => (
-    <div>
+    <body className="items">
         <h2>Add and Remove Items here</h2>
 
-    </div>
+    </body>
 )
 
 export default Items;

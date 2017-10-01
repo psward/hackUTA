@@ -3,7 +3,7 @@ import SearchField from './SearchField';
 import './styles/Recipes.css';
 
 const Recipes = () => (
-    <div>
+    <body className="recipes">
     <SearchField
        handleButtonClick = {this.handleButtonClick}
        handleUserInput = {this.handleUserInput}/>
@@ -13,7 +13,14 @@ const Recipes = () => (
             <img src="https://www.cscassets.com/recipes/wide_cknew/wide_62233.jpg"
             alt="Chicken Alfredo Img"/>
             <p>
-                Instructions to make Chicken alfredo with item list.
+                <li>1. Cut chicken in strips. Season with salt and white pepper and saute in butter. Meanwhile in a separate pot, simmer garlic cloves in cream for 10 minutes.
+                    Watch: How to Peel A Head Of Garlic</li>
+
+                <li>2. Pour cream into pan with chicken, removing garlic cloves. Stir in Parmesan. Cook pasta according to package instructions.
+                    Watch: How to Cook Pasta</li>
+
+                <li>3. Toss pasta with sauce and serve with extra Parmesan.</li>
+
             </p>
         </div>
         <div>
@@ -32,7 +39,7 @@ const Recipes = () => (
                 Instructions to make Apple Pie.
             </p>
         </div>
-    </div>
+    </body>
 )
 
 export default Recipes;

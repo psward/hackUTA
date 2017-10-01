@@ -67,6 +67,30 @@ body.compost {
   position: absolute;
 }
 
+body.donate {
+  background-image: url('http://www.uwwce.org/sites/uwwashington.oneeach.org/files/Community.png');
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+body.recipes {
+  background-size: cover;
+  background-color: yellow;
+}
+
+body.items {
+  background-image: url('http://www.seriouseats.com/recipes/assets_c/2016/05/20160503-fava-carrot-ricotta-salad-recipe-1-thumb-1500xauto-431710.jpg');
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+
 .space > h1 {
     opacity: 1;
 }
