@@ -4,7 +4,7 @@ import {
     BrowserRouter as Router,
     Route,
     Link
-} from 'react-router-dom'
+} from 'react-router-dom';
 
 // Uses boostrap components to build a header bar...
 const HeaderBar = (props) => {
@@ -16,9 +16,9 @@ const HeaderBar = (props) => {
             <Router>
                 <div>
                     <ul>
-                        <lu><lunk to="/">Home</lunk></lu>
-                        <lu><lunk to="/items">Build your own recipe</lunk></lu>
-                        <lu><lunk to="/recipes">Find a recipe</lunk></lu>
+                        <lu><Link to="/">Home</Link></lu>
+                        <lu><Link to="/items">Build your own recipe</Link></lu>
+                        <lu><Link to="/recipes">Find a recipe</Link></lu>
                     </ul>
 
                     <hr/>
