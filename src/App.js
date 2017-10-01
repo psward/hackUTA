@@ -38,7 +38,7 @@ class App extends Component {
           <div>
             <ul className="App-header">
               <lu><Link to="/">Home</Link></lu>
-              <lu><Link to="/recipes">Find A Recipe</Link></lu>
+              <lu><Link to="/recipes">Find Recipe</Link></lu>
               <lu><Link to="/items">Build Your Own</Link></lu>
               <lu><Link to="/donate">Donate</Link></lu>
             </ul>
