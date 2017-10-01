@@ -10,6 +10,7 @@ import {
 import Home from './Home';
 import Items from './Items';
 import Recipes from './Recipes';
+import Donate from './Donate.js'
 
 class App extends Component {
   constructor(props){
@@ -41,6 +42,7 @@ class App extends Component {
               <lu><Link to="/">Home</Link></lu>
               <lu><Link to="/items">Build your own recipe</Link></lu>
               <lu><Link to="/recipes">Find a recipe</Link></lu>
+              <lu><Link to="/donate">Donate</Link></lu>
             </ul>
 
             <hr/>
@@ -48,6 +50,7 @@ class App extends Component {
             <Route exact path="/" component={Home}/>
             <Route path="/items" component={Items}/>
             <Route path="/recipes" component={Recipes}/>
+            <Route path="/donate" component={Donate}/>
           </div>
         </Router>
       <SearchField
@@ -68,5 +71,9 @@ const ItemsScreen = () => (
 const RecipesScreen = ({ match }) => (
     <Recipes/>
 )
+const DonateScreen = () => (
+    <Donate/>
+)
+
 
 export default App;
