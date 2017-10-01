@@ -1,5 +1,5 @@
 import React from  'react';
-import './Items.css';
+import './styles/Items.css';
 
 const Items = () => (
     <div>

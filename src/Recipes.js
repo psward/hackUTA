@@ -1,6 +1,6 @@
 import React from  'react';
 import SearchField from './SearchField';
-import './Recipes.css';
+import './styles/Recipes.css';
 
 const Recipes = () => (
     <div>
