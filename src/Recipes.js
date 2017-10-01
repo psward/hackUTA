@@ -1,8 +1,12 @@
 import React from  'react';
+import SearchField from './SearchField';
 import './Recipes.css';
 
 const Recipes = () => (
     <div>
+    <SearchField
+       handleButtonClick = {this.handleButtonClick}
+       handleUserInput = {this.handleUserInput}/>
         <h2>Recipes</h2>
         <div>
             <h3>Chicken Alfredo</h3>

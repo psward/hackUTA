@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import SearchField from './SearchField';
 import HeaderBar from './HeaderBar';
 import {
     BrowserRouter as Router,
@@ -39,8 +38,8 @@ class App extends Component {
           <div>
             <ul className="App-header">
               <lu><Link to="/">Home</Link></lu>
-              <lu><Link to="/items">Build your own recipe</Link></lu>
-              <lu><Link to="/recipes">Find a recipe</Link></lu>
+              <lu><Link to="/recipes">Find A Recipe</Link></lu>
+              <lu><Link to="/items">Build Your Own</Link></lu>
               <lu><Link to="/donate">Donate</Link></lu>
             </ul>
 
