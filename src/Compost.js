@@ -2,6 +2,7 @@ import React from  'react';
 
 const Home = () => (
       <body className="compost">
+        <div className="fade">
           <h1>How To Compost Food Scraps</h1>
           <p>How quickly compost breaks down depends on four things – moisture, oxygen content, temperature, and a good mix of ingredients. The perfect compost pile is damp without being wet, like a squeezed out sponge. It should also be well aerated, with plenty of the oxygen that aerobic bacteria need. And it should have a mix of different types of materials. If you have just one thing, like grass clippings alone, or leaves alone, then it takes a really long time to break down. But if you have several materials and mix them all together, then they break down much more quickly.
 
@@ -26,6 +27,7 @@ const Home = () => (
 
               <p>Green and brown doesn’t refer to the actual color of the stuff you are putting in the composter — it’s just shorthand for saying nitrogen rich or carbon rich.</p>
           </p>
+        </div>
       </body>
 )
 

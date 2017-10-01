@@ -3,8 +3,10 @@ import './styles/App.css';
 
 const Items = () => (
     <body className="items">
-        <h2>Add and Remove Items here</h2>
-
+      <div className="fade">
+        <h2>Grocery Items</h2>
+        <p>Below you will find a list of all the food items you wish to buy to create your recipes</p>
+      </div>
     </body>
 )
 
