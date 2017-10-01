@@ -5,7 +5,6 @@ import { LinkContainer } from 'react-router-bootstrap';
 import {
     BrowserRouter as Router,
     Route,
-    Link,
 } from 'react-router-dom';
 
 // Uses boostrap components to build a header bar...
@@ -31,9 +30,5 @@ const HeaderBar = (props) => {
     </Navbar>
   )
 }
-
-const DonateScreen = () => (
-    <Donate/>
-)
 
 export default HeaderBar;
