@@ -1,6 +1,6 @@
 import React from  'react';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
-import Donate from './Donate.js'
+import Donate from './Donate.js';
 import { LinkContainer } from 'react-router-bootstrap';
 import {
     BrowserRouter as Router,
@@ -26,7 +26,6 @@ const HeaderBar = (props) => {
             <Router>
             <Route path ="/donate" component={Donate}/>
             </Router>
-          <NavItem eventkey={2} href="#">Search</NavItem>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
